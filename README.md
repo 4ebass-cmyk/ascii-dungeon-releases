@@ -9,13 +9,13 @@ A standalone app for Windows, a plugin for Adobe Illustrator and a plugin for Ve
 
 [**Download the latest version**](https://github.com/4ebass-cmyk/ascii-dungeon-releases/releases/latest) · [What's new](https://github.com/4ebass-cmyk/ascii-dungeon-releases/releases) · [Report a bug](https://github.com/4ebass-cmyk/ascii-dungeon-releases/issues/new?labels=bug)
 
-![ASCII Dungeon App with a photo turned into Fraktur letters](docs/app-still.png)
+![ASCII Dungeon App with a horned skull turned into Fraktur letters](docs/app-still.png)
 
 </div>
 
 ## Four engines, one window
 
-![The same photo in four engines: ASCII, dither, pixel art and shapes](docs/engines.png)
+![The same skull in four engines: ASCII, dither, pixel art and shapes](docs/engines.png)
 
 | Engine | What it makes |
 |---|---|
@@ -32,7 +32,7 @@ The **Grimoire** has 23 ready looks, and **Randomize** rolls new settings for ev
 
 <div align="center">
 
-![A short clip rendered as pixel art](docs/video.gif)
+![A turning skull rendered with the Synthwave dither](docs/video.gif)
 
 </div>
 
@@ -43,7 +43,7 @@ Open or drop a video (MP4, MOV, MKV, WebM, AVI and more) and every setting works
 - Quality from Low (720p) to Source (the video's own size and bitrate), and a frame rate of your choice, from 60 down to 8 fps for a choppy retro look.
 - Rendering uses every processor core.
 
-![The timeline with a pixel art clip](docs/app-video.png)
+![The timeline with a dithered clip](docs/app-video.png)
 
 ![The export window](docs/app-export.png)
 
@@ -83,7 +83,8 @@ Found a bug or missing something? Use **Feedback** next to the version number in
 
 ## Credits
 
-- Photo in the screenshots: [Nastia Petruk](https://unsplash.com/@mineral_of_demon) on [Unsplash](https://unsplash.com/photos/a-spooky-scene-with-a-crow-skull-and-candle-vcgOBO7UBpQ).
+- Skull photo in the screenshots: [Unsplash](https://unsplash.com/photos/a-black-and-white-photo-of-a-skull-CXUvSOC2ZS8), with the horns added by an image model.
+- Turning skull: rendered in Blender from the [Skull model by Vladimir Petkovic](https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/ScatteringSkull) (CC0).
 - Fonts: UnifrakturMaguntia, Press Start 2P, Silkscreen and VT323, under the SIL Open Font License.
 - [opentype.js](https://github.com/opentypejs/opentype.js) (MIT) reads the fonts.
 - The App runs video through [ffmpeg](https://ffmpeg.org), a GPL build from [BtbN/FFmpeg-Builds](https://github.com/BtbN/FFmpeg-Builds), shipped as a separate program in its `ffmpeg` folder.
