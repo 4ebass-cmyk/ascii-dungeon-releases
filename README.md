@@ -26,6 +26,8 @@ A standalone app for Windows, a plugin for Adobe Illustrator and a plugin for Ve
 
 On top of any engine: noise grain, displacement (noise, wave, glitch), chromatic aberration and bloom. Colour can be a single ink, the picture's own colours or a palette by tone, on a transparent or coloured background.
 
+**Before / After** (or the C key) puts the original next to the art with a divider you can drag.
+
 The **Grimoire** has 23 ready looks, and **Randomize** rolls new settings for every engine. Save your own looks as presets.
 
 ## Video (App)
@@ -73,7 +75,7 @@ The App and the VectorCraft plugin run in the Microsoft Edge WebView2 Runtime, w
 
 - The mouse wheel steps through a selected list or slider. **Alt + drag** moves a slider ten times finer, **double-click** resets it.
 - Click a section heading to fold it.
-- With a video: **Space** plays, **← →** step a frame, **P** renders a preview, **Esc** cancels a render.
+- **C** toggles Before / After. With a video: **Space** plays, **← →** step a frame, **P** renders a preview, **Esc** cancels a render.
 - Error diffusion dithers, jitter and glitch change from frame to frame and flicker in motion. Bayer, halftone and blue noise stay steady in video.
 - Big grids make heavy files. A larger cell or the Pixel glyph detail keeps Illustrator fast.
 
